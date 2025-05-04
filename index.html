@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Your News - BBC</title>
+    <link rel="stylesheet" href="add-news.css">
+</head>
+<body>
+    <div id="add-news-section" class="add-news-container">
+        <h2>Add Your News</h2>
+        <form id="news-submission-form">
+            <div class="form-group">
+                <label for="news-title">Title</label>
+                <input type="text" id="news-title" required placeholder="Enter your news title">
+            </div>
+            <div class="form-group">
+                <label for="news-description">Description</label>
+                <textarea id="news-description" required placeholder="Describe your news story"></textarea>
+            </div>
+            <div class="form-group">
+                <label>Media Upload</label>
+                <div class="media-upload-options">
+                    <button type="button" id="upload-image" class="media-btn">Upload Image</button>
+                    <button type="button" id="upload-video" class="media-btn">Upload Video</button>
+                    <button type="button" id="start-live" class="media-btn">Start Live Video</button>
+                </div>
+                <div id="media-preview" class="media-preview"></div>
+            </div>
+            <div class="form-group">
+                <label>Location</label>
+                <button type="button" id="get-location" class="location-btn">Get Current Location</button>
+                <div id="location-display"></div>
+            </div>
+            <button type="submit" class="submit-btn">Submit News</button>
+        </form>
+    </div>
+    <script src="add-news.js"></script>
+</body>
+</html> 
