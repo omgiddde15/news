@@ -1,0 +1,16 @@
+/* Add Your News navigation link styles */
+.add-news-icon {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+/* Add a highlight effect for the Add Your News link */
+.sc-2f092172-4.hzuZYr[href="/add-news.html"] {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.sc-2f092172-4.hzuZYr[href="/add-news.html"]:hover {
+    color: #0052a3;
+    text-decoration: underline;
+}
